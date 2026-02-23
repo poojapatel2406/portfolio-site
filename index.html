@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pooja Patel — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">PP.</div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-bg-text">DEVELOPER</div>
+        <div class="hero-content">
+            <div class="hero-label"><span class="dot"></span> Available for work</div>
+            <h1>Hi, I'm <br><em>Pooja Patel</em></h1>
+            <p class="tagline">Full Stack Developer crafting digital experiences that are both functional and beautiful.</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects <span class="arrow">↓</span></a>
+                <a href="contact.html" class="btn btn-secondary">Let's Talk</a>
+            </div>
+        </div>
+        <div class="hero-side">
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-num">3+</span>
+                    <span class="stat-label">Projects</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num">5+</span>
+                    <span class="stat-label">Technologies</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num">100%</span>
+                    <span class="stat-label">Passion</span>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll</span>
+                <div class="scroll-line"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Selected Work</span>
+                <h2>Featured Projects</h2>
+            </div>
+
+            <!-- Project 1 -->
+            <div class="project-card" data-num="01">
+                <div class="project-image">
+                    <img src="images/logo bst.jpg" alt="Industrial Website" onerror="this.src='https://via.placeholder.com/700x420/e8f4f0/2a9d8f?text=Industrial+Website'">
+                    <div class="project-overlay">
+                        <a href="https://bstsite.infinityfree.me/BSTsite" target="_blank" class="overlay-btn">View Live ↗</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <div class="project-meta">
+                        <span class="project-num">01</span>
+                        <span class="project-year">2024</span>
+                    </div>
+                    <h3>Industrial Website</h3>
+                    <p>A responsive industrial website built with HTML5, CSS3, and modern design principles. Features clean layouts and Supabase integration.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">Supabase</span>
+                    </div>
+                    <a href="https://bstsite.infinityfree.me/BSTsite" target="_blank" class="project-link">
+                        Visit Project <span>→</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card reverse" data-num="02">
+                <div class="project-image">
+                    <img src="images/servicehub logo.png" alt="Home Service Platform" onerror="this.src='https://via.placeholder.com/700x420/fff3e0/e76f51?text=Home+Service+Platform'">
+                    <div class="project-overlay">
+                        <a href="https://shsite.netlify.app/" target="_blank" class="overlay-btn">View Project ↗</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <div class="project-meta">
+                        <span class="project-num">02</span>
+                        <span class="project-year">2024</span>
+                    </div>
+                    <h3>On Demand Home Service Platform</h3>
+                    <p>Full-stack website with robust business logic, relational database design, and real-time email notifications on task updates.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">Python-Flask</span>
+                        <span class="tech-tag">MySQL</span>
+                    </div>
+                    <a href="https://shsite.netlify.app/" target="_blank" class="project-link">
+                        Visit Project <span>→</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card" data-num="03">
+                <div class="project-image">
+                    <img src="images/socialhub.png" alt="SocialHub App" onerror="this.src='https://via.placeholder.com/700x420/f0e6ff/6a4c93?text=SocialHub+App'">
+                    <div class="project-overlay">
+                        <a href="https://cereless-orectic-jonathan.ngrok-free.dev" target="_blank" class="overlay-btn">View Project ↗</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <div class="project-meta">
+                        <span class="project-num">03</span>
+                        <span class="project-year">2025</span>
+                    </div>
+                    <h3>SocialHub App</h3>
+                    <p>Modern social application featuring posts, likes, comments, and real-time chatting. Clean UI with full backend integration.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">HTML/CSS</span>
+                    </div>
+                    <a href="https://cereless-orectic-jonathan.ngrok-free.dev" target="_blank" class="project-link">
+                        Visit Project <span>→</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Expertise</span>
+                <h2>Skills & Technologies</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-icon">✦</div>
+                    <h3>Frontend</h3>
+                    <p>HTML5, CSS3, JavaScript, React, Responsive Design</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">⬡</div>
+                    <h3>Backend</h3>
+                    <p>Node.js, Python-Flask, Express, REST APIs, Authentication</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">◈</div>
+                    <h3>Database</h3>
+                    <p>MongoDB, MySQL, Supabase, Database Design</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">◎</div>
+                    <h3>Tools</h3>
+                    <p>Git, GitHub, VS Code, Chrome DevTools</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-left">
+                <span class="logo">PP.</span>
+                <p>&copy; 2026 Pooja Patel. All rights reserved.</p>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/poojapatel2406" target="_blank">GitHub ↗</a>
+                <a href="https://linkedin.com/in/pooja-patel-674553292/" target="_blank">LinkedIn ↗</a>
+            </div>
+        </div>
+    </footer>
+
+    <button id="scrollTop" aria-label="Scroll to top">↑</button>
+
+    <script src="scripts/main.js"></script>
+    <script>
+        // Scroll to top
+        const scrollBtn = document.getElementById('scrollTop');
+        window.addEventListener('scroll', () => {
+            scrollBtn.classList.toggle('visible', window.scrollY > 300);
+        });
+        scrollBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+        // Hamburger
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        hamburger?.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+
+        // Intersection observer for animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.project-card, .skill-item').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>

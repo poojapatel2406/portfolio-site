@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Portfolio</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Contact Hero -->
+    <section class="contact-hero">
+        <div class="container">
+            <h1>Get In Touch</h1>
+            <p class="subtitle">Let's work together on your next project</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <h2>Send Me a Message</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Your message here..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <div id="formMessage" class="form-message"></div>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    
+                    <div class="info-item">
+                        <h3>📧 Email</h3>
+                        <p><a href="mailto:your.email@example.com">poojampatel2406@gmail.com</a></p>
+                    </div>
+
+                    <div class="info-item">
+                        <h3>📱 Phone</h3>
+                        <p><a href="tel:+1234567890">+91 6352280825</a></p>
+                    </div>
+
+                    <div class="info-item">
+                        <h3>📍 Location</h3>
+                        <p>Vadodara, Gujarat</p>
+                    </div>
+
+                    <div class="info-item">
+                        <h3>🔗 Social Media</h3>
+                        <div class="social-links-vertical">
+                            <a href="https://github.com/poojapatel2406" target="_blank">GitHub</a>
+                            <a href="https://linkedin.com/in/pooja-patel-674553292/" target="_blank">LinkedIn</a>
+                            
+                    </div>
+
+                    <div class="info-item">
+                        <h3>⏰ Availability</h3>
+                        <p>Open to freelance projects and full-time opportunities</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Footer -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-left">
+                <span class="logo">PP.</span>
+                <p>&copy; 2026 Pooja Patel. All rights reserved.</p>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/poojapatel2406" target="_blank">GitHub ↗</a>
+                <a href="https://linkedin.com/in/pooja-patel-674553292/" target="_blank">LinkedIn ↗</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
