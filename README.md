@@ -51,7 +51,7 @@ portfolio-site/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/portfolio-site.git
+git clone https://github.com/poojapatel2406/portfolio-site.git
 ```
 
 2. Navigate to project folder:
@@ -97,7 +97,7 @@ This project is open source and available under the MIT License.
 
 ## 👤 Author
 
-Your Name - [GitHub](https://github.com/yourusername)
+Pooja Patel - [GitHub](https://github.com/poojapatel2406)
 
 ## 🙏 Acknowledgments
 
