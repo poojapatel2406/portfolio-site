@@ -192,31 +192,7 @@
             </div>
         </div>
     </footer>
-
-    <button id="scrollTop" aria-label="Scroll to top">↑</button>
-
     <script src="scripts/main.js"></script>
-    <script>
-        // Scroll to top
-        const scrollBtn = document.getElementById('scrollTop');
-        window.addEventListener('scroll', () => {
-            scrollBtn.classList.toggle('visible', window.scrollY > 300);
-        });
-        scrollBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
-
-        // Hamburger
-        const hamburger = document.querySelector('.hamburger');
-        const navLinks = document.querySelector('.nav-links');
-        hamburger?.addEventListener('click', () => {
-            hamburger.classList.toggle('active');
-            navLinks.classList.toggle('active');
-        });
-
-        // Intersection observer for animations
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); });
-        }, { threshold: 0.1 });
-        document.querySelectorAll('.project-card, .skill-item').forEach(el => observer.observe(el));
-    </script>
 </body>
+
 </html>

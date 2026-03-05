@@ -1,6 +1,6 @@
-# Portfolio Website
+# Pooja Patel's Portfolio Website
 
-A modern, responsive personal portfolio website built with HTML5, CSS3, and JavaScript.
+A modern, responsive personal portfolio website built with HTML5, CSS3, and JavaScript, created as part of the Soft Nexis internship program.
 
 ## 🚀 Features
 
@@ -51,7 +51,7 @@ portfolio-site/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/portfolio-site.git
+git clone https://github.com/poojapatel2406/portfolio-site.git
 ```
 
 2. Navigate to project folder:
@@ -67,16 +67,6 @@ cd portfolio-site
 - **Tablet (≤768px)**: Adjusted grid, hamburger menu
 - **Mobile (≤480px)**: Single column, stacked content
 
-## ✨ Customization
-
-To personalize this portfolio:
-
-1. Replace "Your Name" with your actual name
-2. Update email, phone, and social media links
-3. Add your own images to the `images/` folder
-4. Modify colors in CSS `:root` variables
-5. Update project descriptions and tech stack
-
 ## 🌐 Deployment
 
 ### GitHub Pages
@@ -84,7 +74,7 @@ To personalize this portfolio:
 1. Push code to GitHub
 2. Go to Settings → Pages
 3. Select branch: `main`
-4. Your site will be live at: `https://yourusername.github.io/portfolio-site`
+4. Your site will be live at: `https://poojapatel2406.github.io/portfolio-site`
 
 ### Netlify
 
@@ -97,13 +87,12 @@ This project is open source and available under the MIT License.
 
 ## 👤 Author
 
-Your Name - [GitHub](https://github.com/yourusername)
+**Pooja Patel** - [GitHub](https://github.com/poojapatel2406)
 
 ## 🙏 Acknowledgments
 
 - Built as part of Soft Nexis internship program
 - TaskFlow Project - Task 1: Environment Setup & Static Website Deployment
-```
 
 ---
 
